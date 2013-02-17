@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_sample_db"
+        android:orderInCategory="150"
+        android:showAsAction="never"
+        android:title="@string/action_console_menu_sample"/>
+    <item
+        android:id="@+id/action_reset"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_delete"
+        android:title="@string/action_console_btreset"
+        />
+
+</menu>
