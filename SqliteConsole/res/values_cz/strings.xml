@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sqlite Console</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_console_btexecute">Spusť dotaz</string>
+    <string name="action_console_btreset">Vymazat</string>
+    <string name="action_console_menu_sample">Vytvořit prázdnou DB</string>
+    <string name="action_about">O programu</string>
+        
+    <string name="msg_database_created">Databáze byla vytvořena</string>
+
+    <string name="about_application">Sqlite Console</string>
+    <string name="about_text">Sqlite Console &#169; 2013 Brumla</string>
+</resources>
