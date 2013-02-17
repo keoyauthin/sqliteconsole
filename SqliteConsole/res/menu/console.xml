@@ -11,10 +11,41 @@
         android:showAsAction="never"
         android:title="@string/action_console_menu_sample"/>
     <item
-        android:id="@+id/action_reset"
+        android:id="@+id/action_about"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/action_about"/>
+    <item
+        android:id="@+id/sqlPK"
+        android:orderInCategory="20"
         android:showAsAction="always"
+        android:title="PK"/>
+    <item
+        android:id="@+id/sqlVarchar"
+        android:orderInCategory="30"
+        android:showAsAction="always"
+        android:title="VCHAR"/>
+    <item
+        android:id="@+id/sqlNotNull"
+        android:orderInCategory="40"
+        android:showAsAction="always"
+        android:title="NNUL"/>
+    <item
+        android:id="@+id/sqlPrev"
+        android:icon="@android:drawable/ic_media_previous"
+        android:orderInCategory="50"
+        android:showAsAction="always"
+        android:title=""/>
+    <item
+        android:id="@+id/sqlNext"
+        android:icon="@android:drawable/ic_media_next"
+        android:orderInCategory="60"
+        android:showAsAction="always"
+        android:title=""/>
+    <item
+        android:id="@+id/action_reset"
         android:icon="@android:drawable/ic_delete"
-        android:title="@string/action_console_btreset"
-        />
+        android:showAsAction="always"
+        android:title="@string/action_console_btreset"/>
 
 </menu>
